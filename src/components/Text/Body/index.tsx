@@ -2,7 +2,7 @@ import { styled } from "../../../stitches.config";
 import { pxToRem } from "../../../utils";
 
 const Body = styled('h6', {
-  color: '$gray600',
+  color: '$gray500',
   fontSize: '1.125rem',
   fontWeight: '400',
   marginTop: "1rem",
