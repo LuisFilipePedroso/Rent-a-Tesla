@@ -1,7 +1,11 @@
 import { styled } from "../../stitches.config";
 import { pxToRem } from "../../utils";
 
-export const Container = styled("header", {
+export const Container = styled("div", {
+  backgroundColor: "$gray100",
+});
+
+export const Content = styled("header", {
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
@@ -10,7 +14,8 @@ export const Container = styled("header", {
   maxWidth: 1480,
   marginLeft: "auto",
   marginRight: "auto",
-  marginBottom: `${pxToRem("64")}rem`,
+  marginTop: `${pxToRem("16")}rem`,
+  marginBottom: `${pxToRem("16")}rem`,
 });
 
 export const Logo = styled("h3", {
