@@ -8,7 +8,7 @@ export const { styled } = createStitches({
       gray200: "#ccc",
       gray300: "#b2b2b2",
       gray400: "#999999",
-      gray500: "#7f7f7f",
+      gray500: "#656565",
       gray600: "#323232",
       primary: "#1A4AF8",
     },
