@@ -7,7 +7,8 @@ export const Container = styled("div", {
   justifyContent: "center",
   width: "100%",
   backgroundColor: "$gray100",
-  padding: "128px 0",
+  paddingTop: `2rem`,
+  paddingBottom: `${pxToRem("128")}rem`,
 });
 
 export const Content = styled("div", {
