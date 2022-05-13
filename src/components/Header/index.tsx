@@ -1,13 +1,14 @@
 import AndroidLogo from '../../assets/android.png';
 import AppleLogo from '../../assets/apple.svg';
 import Tesla from '../../assets/tesla.png';
+import Menu from '../Menu';
 import { Body, Heading } from "../Text";
 import { Container, Content, Image, SocialButton, SocialButtonsContainer, TextContainer } from "./styles";
 
 function Header() {
   return (
     <Container>
-      {/* <Menu /> */}
+      <Menu />
       <Content>
         <TextContainer>
           <Heading size="md">Modern Way to Travel with Eletric Car Rent in Your Device!</Heading>
