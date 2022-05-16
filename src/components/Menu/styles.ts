@@ -1,11 +1,7 @@
 import { styled } from "../../stitches.config";
 import { pxToRem } from "../../utils";
 
-export const Container = styled("div", {
-  backgroundColor: "$gray100",
-});
-
-export const Content = styled("header", {
+export const Container = styled("header", {
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
@@ -14,7 +10,6 @@ export const Content = styled("header", {
   maxWidth: 1480,
   marginLeft: "auto",
   marginRight: "auto",
-  marginTop: `${pxToRem("16")}rem`,
   marginBottom: `${pxToRem("16")}rem`,
 });
 
@@ -40,6 +35,7 @@ export const ListItem = styled("li", {
 
   display: "flex",
   alignItems: "center",
+  cursor: "pointer",
 
   variants: {
     selected: {
