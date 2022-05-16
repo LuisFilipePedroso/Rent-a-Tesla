@@ -4,11 +4,12 @@ const Button = styled('button', {
   padding: '8px 32px',
   borderRadius: 8,
   fontSize: "1rem",
-  fontWeight: "bold",
+  fontWeight: "600",
   border: 'none',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  cursor: 'pointer',
 
   variants: {
     variant: {
