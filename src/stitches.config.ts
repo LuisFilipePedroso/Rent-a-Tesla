@@ -11,6 +11,7 @@ export const { styled } = createStitches({
       gray500: "#656565",
       gray600: "#323232",
       primary: "#1A4AF8",
+      lightPrimary: "#f0f3ff",
     },
   },
 });
