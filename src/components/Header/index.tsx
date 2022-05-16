@@ -1,8 +1,9 @@
 import AndroidLogo from '../../assets/android.png';
 import AppleLogo from '../../assets/apple.svg';
 import Tesla from '../../assets/tesla.png';
+import Content from '../Content';
 import { Body, Heading } from "../Text";
-import { Container, Content, Image, SocialButton, SocialButtonsContainer, TextContainer } from "./styles";
+import { Container, Image, SocialButton, SocialButtonsContainer, TextContainer } from "./styles";
 
 function Header() {
   return (

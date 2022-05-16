@@ -6,17 +6,8 @@ export const Container = styled("div", {
   flexDirection: "column",
   justifyContent: "center",
   width: "100%",
-  backgroundColor: "$gray100",
   paddingTop: `2rem`,
   paddingBottom: `${pxToRem("128")}rem`,
-});
-
-export const Content = styled("div", {
-  display: "flex",
-  width: "100%",
-  maxWidth: 1480,
-  marginLeft: "auto",
-  marginRight: "auto",
 });
 
 export const TextContainer = styled("div", {
